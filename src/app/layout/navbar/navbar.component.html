@@ -1,0 +1,9 @@
+<mat-toolbar color="primary" fxLayout="row" fxLayoutAlign="space-between center">
+    <button [fxShow.gt-md]="false"  mat-icon-button aria-label="menu icon" (click)="MenuButtonClick()">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span fxShow.lt-lg="false">Optica</span>
+    <button  mat-icon-button aria-label="menu icon">
+        <mat-icon>account_circle</mat-icon>
+      </button>
+  </mat-toolbar>
